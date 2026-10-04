@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_CAUSALUP",
+  "tier": "TIER_6_SECURITY_EVAL",
+  "slug": "py-why/dowhy",
+  "commit": "cc23521127ba",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 43.34,
+      "min": 37.0,
+      "max": 48.49,
+      "all": [
+        48.49,
+        48.38,
+        37.0,
+        40.52,
+        42.32
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_CAUSALUP (py-why/dowhy) \u2014 528 files, 53037 source lines, licence MIT, primary language ['Python']",
+      "token_count": 35,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "causal",
+        "##up",
+        "(",
+        "p",
+        "##y",
+        "-",
+        "why",
+        "/",
+        "dow",
+        "##hy",
+        ")",
+        "\u2014",
+        "52",
+        "##8",
+        "files",
+        ",",
+        "530"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5878,
+      "classification_latency_ms": 70.48,
+      "status": "PASS"
+    }
+  }
+}

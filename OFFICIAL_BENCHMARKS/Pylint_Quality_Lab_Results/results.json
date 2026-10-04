@@ -1,0 +1,15 @@
+{
+  "benchmark": "Pylint_Quality_Lab_Results",
+  "project": "K_CAUSALUP",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://pylint.readthedocs.io/",
+  "results": {
+    "framework": "Pylint \u2014 Python Code Quality Analyzer",
+    "source": "https://pylint.readthedocs.io/",
+    "files_analyzed": 5,
+    "pylint_score": 6.53,
+    "pylint_score_max": 10.0,
+    "status": "PARTIAL",
+    "raw_output": "************* Module test_parallel_refuters\nTIER_6_SECURITY_EVAL\\K_CAUSALUP\\UPSTREAM\\test_parallel_refuters.py:21:0: C0301: Line too long (109/100) (line-too-long)\nTIER_6_SECURITY_EVAL\\K_CAUSALUP\\UPSTREAM\\test_parallel_refuters.py:35:0: C0301: Line too long (102/100) (line-too-long)\nTIER_6_SECURITY_EVAL\\K_CAUSALUP\\UPSTREAM\\test_parallel_refuters.py:36:0: C0301: Line too long (104/100) (line-too-long)\nTIER_6_SECURITY_EVAL\\K_CAUSALUP\\UPSTREAM\\test_parallel_refuters.py:45:11: W0718: Catching too general exception Exception (broad-exception-caught)\nTIER_6_SECURITY_EVAL\\K_CAUSALUP\\UPSTREAM\\test_parallel_refuters.py:18:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)\nTIER_6_SECURITY_EVAL\\K_CAUSALUP\\UPSTREAM\\test_parallel_refuters.py:29:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)\nTIER_6_SECURITY_EVAL\\K_CAUSALUP\\UPSTREAM\\test_parallel_refuters.py:69:11: W0718: Catching too general exception Exception (broad-exception-caught)\nTIER_6_SECURITY_EVAL\\K_CAUSALUP\\UPSTREAM\\test_parallel_refuters.py:54:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)\nTIER_6_SECURITY_EVAL\\K_CAUSALUP\\UPSTREAM\\test_parallel_refuters.py:60:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)\nTIER_6_SECURITY_EVAL\\K_CAUSALUP\\UPSTREAM\\test_parallel_refuters.py:88:10: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)\nTIER_6_SECURITY_EVAL\\K_CAUSALUP\\UPSTREAM\\test_parallel_refuters.py:93:4: R1705: Unnecessary \"else\" after \"return\", remove the \"else\" and de-indent the code inside it (no-else-return)\nTIER_6_SECURITY_EVAL\\K_CAUSALUP\\UPSTREAM\\test_parallel_refuters.py:102:4: R1722: Consider using 'sys.exit' instead (consider-using-sys-exit)\nTIER_6_SECURITY_EVAL\\K_CAUSALUP\\UPSTREAM\\test_parallel_refuters.py:8:0: W0611: Unused import os (unused-import)\n************* Module dowhy.causal_estimator\nTIER_6_SECURITY_"
+  }
+}

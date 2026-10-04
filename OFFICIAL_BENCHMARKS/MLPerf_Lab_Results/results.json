@@ -1,0 +1,28 @@
+{
+  "benchmark": "MLPerf_Lab_Results",
+  "project": "K_CAUSALUP",
+  "tier": "TIER_6_SECURITY_EVAL",
+  "slug": "py-why/dowhy",
+  "commit": "cc23521127ba",
+  "run_timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_load_time_sec": 2.96,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "MLPerf Inference v5.1 (MLCommons) \u2014 proxy",
+    "source": "https://mlcommons.org/benchmarks/inference-datacenter/",
+    "note": "Full MLPerf requires datacenter GPU. Proxy: TTFT + throughput on CPU distilbert.",
+    "ttft_ms": {
+      "p50": 39.01,
+      "p99": 39.01,
+      "avg": 38.02
+    },
+    "throughput_samples_per_sec": 26.3,
+    "scenario": "SingleStream (CPU)",
+    "status": "PASS"
+  }
+}
